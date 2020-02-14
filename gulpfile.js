@@ -3,6 +3,7 @@ var concat = require('gulp-concat');
 var minify = require('gulp-minify');
 var cleanCss = require('gulp-clean-css');
 
+/* Add Js file url here */
 gulp.task('pack-js', function () {
     // return gulp.src(['assets/js/vendor/*.js', 'assets/js/main.js', 'assets/js/module*.js'])
     //     .pipe(concat('bundle.js'))
@@ -16,6 +17,7 @@ gulp.task('pack-js', function () {
         .pipe(gulp.dest('public/build/js'));
 });
 
+/* Add css file url here */
 gulp.task('pack-css', function () {
     // return gulp.src(['assets/css/main.css', 'assets/css/custom.css'])
     //     .pipe(concat('stylesheet.css'))
