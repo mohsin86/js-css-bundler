@@ -1,0 +1,102 @@
+
+body {
+    font-family: "Larsseit";
+    box-sizing: border-box;
+    position: relative;
+}
+/* ********** Common Element(Start) ********** */
+.buttons {
+    background: none;
+    box-shadow: none;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: all 1.5s;
+    color: #ffffff;
+    text-decoration: none;
+}
+button:hover{
+    /* background: #ffffff; */
+    /* opacity: 0.6; */
+    color: #111111;
+}
+.button1 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+section, footer {
+    clear: both;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #111;
+    text-decoration: none;
+}
+
+.sec-header, .sec-subHeader {display: block;}
+.sec-header h2 {
+    font-family: "Larsseit-Bold";
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: left;
+    margin: 0 0 25px;
+}
+.sec-header h2 span img {
+    width: 38px;
+    height: auto;
+    margin-right: 5px;
+}
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+h4 {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 10px;
+}
+b {font-family: "Larsseit-Bold";}
+.btn-ff {
+    font-family: "Larsseit";
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: capitalize;
+    border: 1px solid #FFFFFF;
+    border-radius: 0;
+    padding: 3px 26px;
+    background: transparent;
+    transition: all 0.3s ease-in;
+}
+.btn-ff:hover {
+    background: #FFFFFF;
+    color: #010101;
+    transition: all 0.3s ease-in;
+}
