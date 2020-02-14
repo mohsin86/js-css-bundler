@@ -8,16 +8,16 @@ Install the dependencies in the local node_modules folder
 npm install
 ```
 
-Step to Convert
+Step to Follow
 -----------
-1. Put css and js file in assets folder
+1. Put css and js file into assets folder
 2. Edit gulpfile.js, here,  update css and js url that you want to group and minify.
-3. Run gulp command, after that you will find minifid file under public/build
+3. Run gulp command, after that you will find minifid version of css and js file under public/build
  
 
 Build css and js
 ------------------
-run the docker build command, I set the image with with -t parameter "dockrize-jwt", choose image name what you prefer
+
 ```
 gulp
 ```
