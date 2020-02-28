@@ -1,4 +1,4 @@
-# js-css-bundler
+# js-css-minifier
 Minify and bundle multiple css and js file into respective css and js file via gulp
 
 Installation
